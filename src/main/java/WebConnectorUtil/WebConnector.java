@@ -61,6 +61,7 @@ public class WebConnector {
 			}
 		}
 	}
+	//Use methord for Extent report
     public void initReport(String scenarioName){
     report=ExtentManager.getInstance(prop.getProperty("reportPath"));
     scenario=report.createTest(scenarioName);
