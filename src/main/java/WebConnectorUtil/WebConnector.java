@@ -40,7 +40,7 @@ public class WebConnector {
 	public Properties prop;
     ExtentReports report;
 	ExtentTest scenario;
-	
+	//Use for share webdriver
 	public WebConnector() {
 		if (prop == null) {
 			try {
