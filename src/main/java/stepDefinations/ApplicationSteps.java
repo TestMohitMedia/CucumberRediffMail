@@ -13,7 +13,7 @@ public class ApplicationSteps {
     public ApplicationSteps(WebConnector con) {
 		this.con = con;
 	}
-    //Helllo
+    
     @And("^I Login inside application$")
 	/*public void I_Login_inside_application(List<Map<String,String>> data) throws InterruptedException {
 	   con.login(data.get(0).get("UserName"),data.get(0).get("Password"));
@@ -23,4 +23,9 @@ public class ApplicationSteps {
  	   //con.login(data.get(0).get("UserName"),data.get(0).get("Password"));
  	   con.login(userList.get(0),userList.get(1));
  	 }
+    /*public void TestQA(DataTable data) throws InterruptedException {
+    	List<String> userList=data.asList(String.class);
+ 	   //con.login(data.get(0).get("UserName"),data.get(0).get("Password"));
+ 	   con.login(userList.get(0),userList.get(1));
+ 	 }*/
 }
